@@ -1,0 +1,23 @@
+Análisis de Imágenes Médicas
+Práctica #5
+
+Duarte García, Jesús.
+Nava Vargas, Cathia Michelle.
+
+Nuestro primer programa mostrará dos segmentaciones. Primero desplegara la imagen
+con ciertas propiedades graficadas superpuestas para despues mostrar en tres
+distintas imagenes el reconocimiento de patrones. El proceso se repite
+dos veces ya que se utilizaron dos metodos distintos para este proceso.
+
+El segundo programa igualmente desplegara una imagen y una grafica con algunas
+propiedades de las imagenes. Al final igualmente se desplegaran los resultados
+en tres distintas ventanas. Para cambiar la imagen a tratar es necesario cambiar
+la siguiente linea de código
+
+Im1=double(imread('testTY1.jpg'));
+
+por
+
+Im1=double(imread('testTY2.jpg'));
+
+Y volver a ejecutar para apreciar los resultados. 
